@@ -53,17 +53,12 @@ This repository contains a simple MLOps pipeline for training and evaluating a R
    python src/train.py
    ```
 
-4. **Evaluate the Model**:
+4. **Run Tests**:
    ```bash
-   python src/evaluate.py
+   pytest tests/test_model.py
    ```
 
-5. **Run Tests**:
-   ```bash
-   pytest tests/test_eval.py
-   ```
-
-6. **Create a Pull Request**:
+5. **Create a Pull Request**:
    - Push changes to the `dev` branch and create a pull request to `main`.
    - GitHub Actions will automatically run the tests and report the results.
 
